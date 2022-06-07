@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="portfolio.css">
+
+<body>
+
+    <div id="main_container">
+        <span id="menubutton">
+            <img src="menu_logo.png" alt="menu_logo" id="menu_view" onmouseover=display_menu() onblur=hide_menu()
+                onclick=click_to_display()>
+            <ul type="none" id="menu_expand_list" class="hover_effect">
+                <li><a href="#about" >
+                        About
+                    </a></li>
+                <li><a href="#education">
+                        Education
+                    </a></li>
+                <li><a href="#skills">
+                        Skills
+                    </a></li>
+                <li><a href="#achievements">
+                        Achievements
+                    </a></li>
+                <li><a href="#contact">
+                        Contact me
+                    </a></li>
+            </ul>
+        </span>
+        <nav id="navbar"class="hover_effect">
+            <a href="#about">
+                About
+            </a>
+            <a href="#education">
+                Education
+            </a>
+            <a href="#skills">
+                Skills
+            </a>
+            <a href="#achievements">
+                Achievements
+            </a>
+
+            <a href="#contact">
+                Contact me
+            </a>
+        </nav>
+        <div id="home">
+
+            <div id="home_text">
+                <img src="images (22).jpeg" alt="">
+                <br>
+                <div id="actual_text">
+                    <span>Hey there... it's me, </span>
+                    <span id="name_in_home"> Abhirup</span>
+                </div>
+            </div>
+        </div>
+        <h2>About</h2>
+        <div id="about" class="card">
+
+
+            <span>
+                <ul type="none" class="list_style">
+                <li>
+                    My name is Abhirup Pal
+                </li>
+                <li>
+                    I am an undergraduate student at IIT Kharagpur
+                </li>
+                <li>
+                    A web developer
+                </li>
+                <li>
+                    Love watching and playing cricket
+                </li>
+                <li>
+                    ...and a competitive coding enthusiast
+                </li>
+                <li>
+                    I love learning and exploring new things
+                </li>
+            </ul>
+            </span>
+            <img src="images (21).jpeg" id="about_img" alt="">
+        </div>
+        <h2>
+            Education
+        </h2>
+        <div id="education" class="card">
+            <img src="images (4).jpg" alt="">
+            <ul type="none"class="list_style">
+            <li>
+                I completed my 10th and +2 from Sanskrit Collegiate School, Kolkata</li>
+            <li>
+                I am currently a first year undergraduate student at IIT Kharagpur</li>
+            </ul>
+        </div>
+        <h2>
+            Skills
+        </h2>
+        <div id="skills" class="card">
+            <ul id="skills_list" type="none"class="list_style">
+            <li>
+                C++
+            </li>
+            <li>
+                HTML
+            </li>
+            <li>
+                CSS
+            </li>
+            <li>
+                Javascript
+            </li>
+        </ul>
+            <div id="skillimg">
+            <img src="download (4).png" alt="">
+            <img src="download (6).jpeg" alt="">
+        </div>
+        </div>
+        <h2>
+            Achievements
+        </h2>
+        
+        <div id="achievements" class="card" class="list_style">
+            <img src="images (26).jpeg" alt="" id="achievements_img">
+            <ul>
+                <li>
+                    I got 99.76 percentile in JEE mains, 2021
+                </li>
+                <li>
+                    A rank of 5395 in JEE Advanced
+                </li>
+                <li>
+                    ...and a rank of 47 in WBJEE
+                </li>
+            </ul>
+        </div>
+        <h2>Contact Me</h2>
+        <h3>Let's connect!!</h3>
+        <div id="contact" class="list_style">
+            
+            <br>
+            <a href="https://facebook.com"><img src="images (3).png" alt="facebook" class="social"></a>
+            <a href="instagram.com"><img src="download (2).png" alt="instagram" class="social"></a>
+            <a href="linkedin.com"><img src="download (3).png" alt="linkedin" class="social"></a>
+        </div>
+    </div>
+
+
+</body>
+<script src="portfolio.js"></script>
+
+</html>
